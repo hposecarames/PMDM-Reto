@@ -4,4 +4,8 @@
     <string name="reto_2">Reto 2</string>
     <string name="reto_3">Reto 3</string>
     <string name="reto_4">Reto 4</string>
+    <string name="pregunta">TextView</string>
+    <string name="en_que_a_o_se_cre_la_m_quina_de_telar_de_jacquard">¿En que año se creó la máquina de telar de Jacquard?</string>
+    <string name="volver">Volver</string>
+    <string name="buscar">Buscar</string>
 </resources>
