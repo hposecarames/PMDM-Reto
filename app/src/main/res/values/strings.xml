@@ -8,9 +8,10 @@
     <string name="en_que_a_o_se_cre_la_m_quina_de_telar_de_jacquard">¿En que año se creó la máquina de telar de Jacquard?</string>
     <string name="volver">Volver</string>
     <string name="buscar">Buscar</string>
-    <string name="camara">Button</string>
+    <string name="camara">Camara</string>
     <string name="imagen">TODO</string>
     <string name="introduce_2_n_meros_que_den_de_resultado_9">Introduce 2 números que den de resultado 9</string>
     <string name="multiplicar">Multiplicar</string>
     <string name="resultado">resultado</string>
+    <string name="volver2">Volver</string>
 </resources>

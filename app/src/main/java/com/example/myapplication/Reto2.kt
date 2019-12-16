@@ -1,5 +1,6 @@
 package com.example.myapplication
 
+import android.app.Activity
 import android.content.Intent
 import android.content.pm.PackageManager
 import android.graphics.Bitmap
@@ -15,11 +16,12 @@ class Reto2 : AppCompatActivity() {
 
     val MY_PERMISSIONS_REQUEST_CAMERA = null
     val REQUEST_IMAGE_CAPTURE = 1
-
+    var fotoRealizada = false
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.reto2)
+
 
 
 
@@ -50,6 +52,12 @@ class Reto2 : AppCompatActivity() {
                 dispatchTakePictureIntent()
             }
 
+        }
+        btnVolver.setOnClickListener {
+            val resp = Intent()
+            resp.putExtra("respuesta2", fotoRealizada)
+            setResult(Activity.RESULT_OK, resp)
+            finish()
         }
         }
         override fun onRequestPermissionsResult(
@@ -92,7 +100,9 @@ class Reto2 : AppCompatActivity() {
         if (requestCode == REQUEST_IMAGE_CAPTURE && resultCode == RESULT_OK) {
             val imageBitmap = data?.extras?.get("data") as Bitmap
             imagen.setImageBitmap(imageBitmap)
+            fotoRealizada = true
         }
 
     }
+
 }
