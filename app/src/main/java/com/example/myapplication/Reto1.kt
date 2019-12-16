@@ -15,7 +15,7 @@ class Reto1 : AppCompatActivity(){
 
         btnVolver.setOnClickListener{
         val resp = Intent()
-        resp.putExtra("respuesta", Integer.parseInt(respuesta.toString()))//Devolvemos el valor de la respuesta
+        resp.putExtra("respuesta", respuesta.toString())//Devolvemos el valor de la respuesta
         setResult(Activity.RESULT_OK, resp)
         finish()
         }
