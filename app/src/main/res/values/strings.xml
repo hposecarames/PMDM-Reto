@@ -10,4 +10,7 @@
     <string name="buscar">Buscar</string>
     <string name="camara">Button</string>
     <string name="imagen">TODO</string>
+    <string name="introduce_2_n_meros_que_den_de_resultado_9">Introduce 2 números que den de resultado 9</string>
+    <string name="multiplicar">Multiplicar</string>
+    <string name="resultado">resultado</string>
 </resources>
